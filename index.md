@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Ana Sayfa
+background_image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2000"
+dark_overlay: true
 ---
 
 <div class="book-card">
