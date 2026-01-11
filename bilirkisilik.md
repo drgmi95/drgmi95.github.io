@@ -2,6 +2,7 @@
 layout: default
 title: Teknik Bilirkişilik
 permalink: /bilirkisilik/
+background_image: "https://images.unsplash.com/photo-1517210122415-b0c70b2a09bf?q=80&w=2000"
 ---
 
 ## Teknik Bilirkişilik ve Adli Destek
