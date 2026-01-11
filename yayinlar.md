@@ -1,7 +1,8 @@
 ---
-layout: default
+ayout: default
 title: Yayınlar ve Eserler
 permalink: /yayinlar/
+background_image: "https://images.unsplash.com/photo-1524522173746-f628baad3644?q=80&w=2000"
 ---
 
 ## Seçilmiş Yayınlar ve Eserler
