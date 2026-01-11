@@ -2,6 +2,8 @@
 layout: default
 title: Bilgi Bankası
 permalink: /bilgi-bankasi/
+background_image: "https://images.unsplash.com/photo-1520641320311-659fb49630ee?q=80&w=2000"
+dark_overlay: true
 ---
 
 ## Eğitim ve Bilgi Bankası
