@@ -2,7 +2,7 @@
 layout: default
 title: Metodoloji
 permalink: /metodoloji/
-bg_image: "[https://images.unsplash.com/photo-1454165833767-027508492021?q=80&w=2000](https://image.slidesharecdn.com/methodology-200212141942/75/Methodology-1-2048.jpg)"
+bg_image: "[[https://images.unsplash.com/photo-1454165833767-027508492021?q=80&w=2000](https://image.slidesharecdn.com/methodology-200212141942/75/Methodology-1-2048.jpg)](https://image.slidesharecdn.com/methodology-200212141942/75/Methodology-1-2048.jpg)"
 ---
 
 ## Metodolojik Analiz ve Disiplinlerarası Karar Destek Danışmanlığı
