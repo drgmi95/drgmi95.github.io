@@ -1,6 +1,5 @@
 title: "Öğr. Gör. Gani Mustafa İnegöl"
 email: gani.inegol@kocaeli.edu.tr
-description: "Denizcilikte Stratejik Karar Verme ve İleri Metodolojik Çözümler"
 url: "https://drgmi95.github.io"
 baseurl: ""
 
@@ -9,7 +8,10 @@ featured_book:
   title: "Görünmeyen Engeller: Gemideki Kültür Çatışmaları"
   image: "https://iis-akakce.akamaized.net/p.z?https%3A%2F%2Fm%2Emedia%2Damazon%2Ecom%2Fimages%2FI%2F31QOGSOBriL%2E%5FSL500%5F%2Ejpg"
   akakce: "https://www.akakce.com/arastirma-inceleme-kitaplari/en-ucuz-gorunmeyen-engeller-gemideki-kultur-catismalari-fiyati,964860670.html"
-  kitapyurdu: "https://www.kitapyurdu.com/kitap/gorunmeyen-engeller-gemideki-kultur-catismalari/706449.html"
   amazon: "https://www.amazon.com.tr/dp/6253881523?tag=akakcetr-21&linkCode=ogi&th=1&psc=1&psc=1"
   idefix: "https://www.idefix.com/gorunmeyen-engeller-gemideki-kultur-catismalari-p-6306076?vendorId=10235&ref=akakce&v=1.67.5"
   dr: "https://www.dr.com.tr/kitap/gorunmeyen-engeller-gemideki-kultur-catismalari/arastirma-tarih/sosyoloji/urunno=0002157639001?utm_source=akakce&utm_medium=cpc&v=1.85.4"
+  kitapyurdu: "https://www.kitapyurdu.com/kitap/gorunmeyen-engeller-gemideki-kultur-catismalari/706449.html"
+
+# Ana Sayfa Görseli (Açık Deniz)
+hero_image: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=2000"
