@@ -2,6 +2,7 @@
 layout: default
 title: Akademik Profil
 permalink: /hakkimda/
+background_image: "https://images.unsplash.com/photo-1516216628859-9bccecab13ca?q=80&w=2000"
 ---
 
 ## Akademik Profil
