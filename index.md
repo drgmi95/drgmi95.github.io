@@ -1,9 +1,15 @@
 ---
 layout: default
 title: Ana Sayfa
-background_image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2000"
-dark_overlay: true
+bg_image: "https://images.unsplash.com/photo-1524522173746-f628baad3644?q=80&w=2000"
 ---
+
+<div style="text-align: center; padding: 50px 0;">
+    <h1 style="font-family: 'Playfair Display'; font-size: 3.2rem; color: #0a192f;">Akademik & Sektörel Çözüm Merkezi</h1>
+    <p style="font-size: 1.3rem; color: #c5a059; font-style: italic; margin-top: 20px;">Denizcilikte Stratejik Karar Verme ve İleri Metodolojik Çözümler</p>
+    <hr style="width: 100px; margin: 30px auto; border: 2px solid #c5a059;">
+    <p style="max-width: 800px; margin: 0 auto; line-height: 2;">Akademik derinlik ve saha tecrübesinin birleştiği bu platformda, denizcilik sektörünün karmaşık problemlerine matematiksel ve stratejik çözümler üretilmektedir.</p>
+</div>
 
 <div class="book-card">
     <img src="{{ site.featured_book.image }}" alt="Kitap Kapağı" style="width: 180px; height: 260px; object-fit: cover; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);">
