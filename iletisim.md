@@ -2,6 +2,7 @@
 layout: default
 title: İletişim
 permalink: /iletisim/
+background_image: "https://images.unsplash.com/photo-1516387938699-a93567ec168e?q=80&w=2000"
 ---
 
 ## İletişim ve Akademik İrtibat
