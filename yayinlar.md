@@ -13,9 +13,13 @@ bg_image: "https://images.unsplash.com/photo-1512820666249-f2e151528666?q=80&w=2
         <h4 style="color: #c5a059; font-size: 0.8rem; letter-spacing: 2px; font-weight: 700;">YAZARIN SEÇKİN ESERİ</h4>
         <h3 style="color: #0a192f; margin: 10px 0;">{{ site.featured_book.title }}</h3>
         <p style="font-size: 0.95rem; line-height: 1.7; color: #444;">Çok kültürlü gemi mürettebatlarında yaşanan etkileşim süreçlerinin ve çatışma dinamiklerinin bilimsel olarak analiz edildiği bu çalışma, denizcilik literatürüne metodolojik bir perspektif sunmaktadır.</p>
-        <div style="margin-top: 20px; display: flex; gap: 10px;">
-            <a href="{{ site.featured_book.akakce }}" target="_blank" class="btn-gold">En Ucuz Fiyat (Akakçe)</a>
-            <a href="{{ site.featured_book.kitapyurdu }}" target="_blank" class="btn-gold" style="background: #2c3e50 !important;">Kitapyurdu</a>
+        
+        <div class="btn-group">
+            <a href="{{ site.featured_book.akakce }}" target="_blank" class="btn-shop btn-akakce">Akakçe</a>
+            <a href="{{ site.featured_book.amazon }}" target="_blank" class="btn-shop btn-amazon"><i class="fab fa-amazon"></i> Amazon</a>
+            <a href="{{ site.featured_book.dr }}" target="_blank" class="btn-shop btn-dr">D&R</a>
+            <a href="{{ site.featured_book.idefix }}" target="_blank" class="btn-shop btn-idefix">Idefix</a>
+            <a href="{{ site.featured_book.kitapyurdu }}" target="_blank" class="btn-shop btn-kitapyurdu">Kitapyurdu</a>
         </div>
     </div>
 </div>
