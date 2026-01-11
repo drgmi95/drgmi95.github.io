@@ -24,8 +24,32 @@ bg_image: "https://images.unsplash.com/photo-1512820666249-f2e151528666?q=80&w=2
     </div>
 </div>
 
-## Bilimsel Yayınlar
-* **Investigation of empty container shortage based on SWARA-ARAS methods in the COVID-19 era**, *European Transport Research Review*, 2022.
-* **Seafarer selection for sustainable shipping: Case study for Turkey**, *International Journal of Maritime Engineering*, 2023.
+## Bilimsel Yayınlar ve Akademik Çıktılar
 
-[Tüm yayınlar için AVESİS profilini ziyaret edin](https://avesis.kocaeli.edu.tr/gani.inegol)
+Aşağıda yer alan çalışmalar SCI-Expanded, SSCI ve Scopus gibi uluslararası prestijli endekslerde taranan dergilerde yayımlanmıştır. Başlıklara tıklayarak ilgili yayına Google Scholar üzerinden ulaşabilirsiniz.
+
+<div class="publication-list">
+    <div class="publication-item">
+        <a href="https://scholar.google.com/scholar?q=Investigation+of+empty+container+shortage+based+on+SWARA-ARAS+methods+in+the+COVID-19+era" target="_blank" class="pub-link">Investigation of empty container shortage based on SWARA-ARAS methods in the COVID-19 era</a>
+        <span class="pub-meta">EUROPEAN TRANSPORT RESEARCH REVIEW, 2022 (SCI-Expanded, SSCI, Scopus)</span>
+    </div>
+    
+    <div class="publication-item">
+        <a href="https://scholar.google.com/scholar?q=SEAFARER+SELECTION+FOR+SUSTAINABLE+SHIPPING+CASE+STUDY+FOR+TURKEY" target="_blank" class="pub-link">SEAFARER SELECTION FOR SUSTAINABLE SHIPPING: CASE STUDY FOR TURKEY</a>
+        <span class="pub-meta">INTERNATIONAL JOURNAL OF MARITIME ENGINEERING, 2023 (SCI-Expanded, Scopus)</span>
+    </div>
+
+    <div class="publication-item">
+        <a href="https://scholar.google.com/scholar?q=Conflicts+due+to+cultural+differences+in+multicultural+ships" target="_blank" class="pub-link">Conflicts due to cultural differences in multicultural ships</a>
+        <span class="pub-meta">AUSTRALIAN JOURNAL OF MARITIME AND OCEAN AFFAIRS, 2025 (Scopus)</span>
+    </div>
+
+    <div class="publication-item">
+        <a href="https://scholar.google.com/scholar?q=Analysis+of+Draught+Survey+Errors+by+Extended+Fuzzy+Analytic+Hierarchy+Process" target="_blank" class="pub-link">Analysis of Draught Survey Errors by Extended Fuzzy Analytic Hierarchy Process</a>
+        <span class="pub-meta">JOURNAL OF ETA MARITIME SCIENCE, 2021 (ESCI, Scopus)</span>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 30px;">
+    <a href="https://avesis.kocaeli.edu.tr/gani.inegol" target="_blank" style="background: var(--gold); color: white; padding: 12px 30px; text-decoration: none; font-weight: 700; border-radius: 2px;">TÜM YAYINLAR İÇİN AVESİS PROFİLİNİ ZİYARET EDİN</a>
+</div>
