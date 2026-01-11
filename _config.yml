@@ -1,12 +1,12 @@
 title: "Öğr. Gör. Gani Mustafa İnegöl"
 email: gani.inegol@kocaeli.edu.tr
-description: "Denizcilikte Stratejik Karar Verme ve İleri Metodolojik Çözümler"
-baseurl: "" 
-url: "https://drgmi95.github.io" 
+url: "https://drgmi95.github.io"
+baseurl: ""
 
+# Kitap Bilgileri
 featured_book:
   title: "Görünmeyen Engeller: Gemideki Kültür Çatışmaları"
-  image: "https://img.kitapyurdu.com/v1/getImage/fn:11910620/wh:true/wi:500"
+  image: "https://iis-akakce.akamaized.net/p.z?https%3A%2F%2Fm%2Emedia%2Damazon%2Ecom%2Fimages%2FI%2F31QOGSOBriL%2E%5FSL500%5F%2Ejpg"
   akakce: "https://www.akakce.com/arastirma-inceleme-kitaplari/en-ucuz-gorunmeyen-engeller-gemideki-kultur-catismalari-fiyati,964860670.html"
-  amazon: "https://www.amazon.com.tr/dp/B0DHWYV4XN"
   kitapyurdu: "https://www.kitapyurdu.com/kitap/gorunmeyen-engeller-gemideki-kultur-catismalari/706449.html"
+  amazon: "https://www.amazon.com.tr/dp/6253881523?tag=akakcetr-21&linkCode=ogi&th=1&psc=1&psc=1"
