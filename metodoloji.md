@@ -2,6 +2,7 @@
 layout: default
 title: Metodoloji Danışmanlığı
 permalink: /metodoloji/
+background_image: "https://images.unsplash.com/photo-1454165833767-027508492021?q=80&w=2000"
 ---
 
 ## Akademik Metodoloji Danışmanlığı
