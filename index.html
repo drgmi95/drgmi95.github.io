@@ -8,69 +8,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --navy: #0a1931;
+            --navy: #0a192f;
             --gold: #c5a059;
             --slate: #2c3e50;
+            --light: #f4f7f6;
             --white: #ffffff;
-            --bg-light: #f8f9fa;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Poppins', sans-serif; background-color: var(--bg-light); color: var(--slate); overflow-x: hidden; scroll-behavior: smooth; }
+        body { font-family: 'Poppins', sans-serif; background-color: var(--light); color: var(--slate); overflow-x: hidden; line-height: 1.6; }
 
         /* Navigasyon */
-        nav { background: var(--navy); padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 2000; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+        nav { background: var(--navy); padding: 1.2rem 0; position: fixed; width: 100%; top: 0; z-index: 2000; border-bottom: 2px solid var(--gold); }
         .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 30px; }
-        .logo { font-family: 'Playfair Display', serif; font-weight: 700; color: var(--gold); font-size: 1.4rem; letter-spacing: 1px; text-decoration: none; }
+        .logo { font-family: 'Playfair Display', serif; font-weight: 700; color: var(--gold); font-size: 1.4rem; text-decoration: none; letter-spacing: 1px; }
         .nav-links a { color: white; text-decoration: none; margin-left: 25px; font-weight: 500; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.2px; transition: 0.3s; cursor: pointer; }
         .nav-links a:hover { color: var(--gold); }
 
         /* Sayfa Yönetimi */
-        .page-content { display: none; padding-top: 80px; min-height: 100vh; animation: fadeIn 0.5s ease; }
+        .page-content { display: none; padding: 100px 20px 60px 20px; min-height: 100vh; animation: fadeIn 0.5s ease; }
         .page-content.active { display: block; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-        /* Hero Bölümü (Sadece Home İçinde) */
-        .hero { 
-            background: linear-gradient(rgba(10, 25, 49, 0.8), rgba(10, 25, 49, 0.8)), url('https://images.unsplash.com/photo-1516216628859-9bccecab13ca?q=80&w=2000');
-            background-size: cover; background-position: center; height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; padding: 0 20px;
+        /* Hero Bölümü (Sadece Home) */
+        #hero-block { 
+            background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2000');
+            background-size: cover; background-position: center; height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; margin-top: 65px;
         }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 10px; }
-        .hero p { font-size: 1.2rem; color: var(--gold); font-style: italic; }
+        #hero-block h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 10px; }
+        #hero-block p { font-size: 1.2rem; color: var(--gold); font-style: italic; }
 
-        /* Kitap Bölümü (Ana Sayfada) */
-        .featured-book { background: white; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin: -50px auto 40px auto; max-width: 900px; padding: 40px; display: flex; gap: 40px; align-items: center; position: relative; z-index: 10; border-right: 8px solid var(--gold); }
-        .book-img { width: 180px; height: 260px; background: var(--navy); border-radius: 4px; box-shadow: 5px 10px 20px rgba(0,0,0,0.2); display: flex; align-items: center; justify-content: center; color: white; text-align: center; padding: 20px; font-weight: bold; }
-        .book-links { display: flex; gap: 10px; margin-top: 20px; }
-        .btn-buy { font-size: 0.8rem; padding: 8px 15px; background: var(--slate); color: white; text-decoration: none; border-radius: 4px; transition: 0.3s; }
+        /* Kitap Alanı */
+        .featured-book { background: white; border-radius: 4px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin: 40px auto; max-width: 1000px; padding: 40px; display: flex; gap: 40px; align-items: center; border-left: 8px solid var(--gold); }
+        .book-cover { width: 160px; height: 240px; background: var(--navy); color: white; display: flex; align-items: center; justify-content: center; text-align: center; padding: 15px; font-weight: bold; font-size: 0.85rem; box-shadow: 5px 5px 15px rgba(0,0,0,0.2); }
+        .book-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+        .btn-buy { font-size: 0.75rem; padding: 10px 15px; background: var(--slate); color: white; text-decoration: none; border-radius: 2px; transition: 0.3s; font-weight: 600; }
         .btn-buy:hover { background: var(--gold); }
 
-        /* İçerik Konteynırı */
-        .container { max-width: 1100px; margin: 0 auto; padding: 60px 20px; }
-        h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; color: var(--navy); margin-bottom: 30px; border-bottom: 3px solid var(--gold); display: inline-block; padding-bottom: 10px; }
+        /* İçerik Düzeni */
+        .container { max-width: 1100px; margin: 0 auto; }
+        h2 { font-family: 'Playfair Display', serif; font-size: 2.4rem; color: var(--navy); margin-bottom: 30px; position: relative; padding-bottom: 10px; }
+        h2::after { content: ''; display: block; width: 60px; height: 3px; background: var(--gold); margin-top: 10px; }
 
-        /* Danışmanlık Kartları */
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-top: 30px; }
-        .card { background: white; padding: 40px; border-radius: 4px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: 0.3s; }
-        .card h3 { color: var(--navy); margin-bottom: 20px; }
-        .card ul { list-style: none; }
-        .card ul li { margin-bottom: 10px; padding-left: 20px; position: relative; }
-        .card ul li::before { content: '⚓'; position: absolute; left: 0; color: var(--gold); }
+        /* Kart Yapıları */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-top: 20px; }
+        .card { background: white; padding: 35px; border-radius: 2px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .card h3 { color: var(--navy); margin-bottom: 20px; font-size: 1.3rem; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .card p { font-size: 0.95rem; text-align: justify; }
 
         /* Bilgi Bankası - Accordion */
-        .acc-item { background: white; margin-bottom: 15px; border-radius: 4px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); overflow: hidden; }
+        .acc-item { background: white; margin-bottom: 15px; border: 1px solid #eee; }
         .acc-header { padding: 20px; cursor: pointer; background: var(--navy); color: white; display: flex; justify-content: space-between; align-items: center; font-weight: 600; }
         .acc-content { max-height: 0; overflow: hidden; transition: 0.4s ease-out; padding: 0 20px; }
-        .acc-content.open { max-height: 1000px; padding: 25px; line-height: 1.8; text-align: justify; }
+        .acc-content.open { max-height: 1000px; padding: 25px; line-height: 1.9; text-align: justify; }
 
-        /* Yayınlar */
-        .pub-row { background: white; padding: 25px; margin-bottom: 15px; border-left: 5px solid var(--gold); display: flex; justify-content: space-between; align-items: center; }
-        .pub-row a { color: var(--navy); text-decoration: none; font-weight: 600; }
-        .pub-row a:hover { color: var(--gold); }
+        /* Yayınlar Tablosu */
+        .pub-item { background: white; padding: 25px; margin-bottom: 15px; border-left: 5px solid var(--gold); display: flex; flex-direction: column; gap: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); }
+        .pub-title { color: var(--navy); text-decoration: none; font-weight: 600; font-size: 1.1rem; line-height: 1.4; }
+        .pub-title:hover { color: var(--gold); }
+        .pub-meta { font-size: 0.85rem; color: #666; font-weight: 500; }
 
-        footer { background: var(--navy); color: white; padding: 50px 0; text-align: center; }
-        .btn-gold { background: var(--gold); color: white; padding: 15px 35px; border: none; cursor: pointer; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
-        .btn-gold:hover { background: #b38f4d; }
+        .btn-avesis { background: var(--gold); color: white; padding: 15px 30px; text-decoration: none; font-weight: 700; border-radius: 2px; display: inline-flex; align-items: center; gap: 10px; margin-top: 30px; transition: 0.3s; }
+        .btn-avesis:hover { background: var(--navy); transform: translateY(-3px); }
+
+        footer { background: var(--navy); color: white; padding: 50px 0; text-align: center; border-top: 4px solid var(--gold); }
     </style>
 </head>
 <body>
@@ -81,7 +82,7 @@
         <div class="nav-links">
             <a onclick="showPage('home')">Başlangıç</a>
             <a onclick="showPage('about')">Akademik Profil</a>
-            <a onclick="showPage('methodology')">Metodoloji</a>
+            <a onclick="showPage('consulting')">Metodoloji</a>
             <a onclick="showPage('sector')">Sektörel</a>
             <a onclick="showPage('knowledge')">Bilgi Bankası</a>
             <a onclick="showPage('publications')">Yayınlar</a>
@@ -90,60 +91,49 @@
     </div>
 </nav>
 
-<div id="home" class="page-content active">
-    <div class="hero">
+<div id="home-page" class="active">
+    <section id="hero-block">
         <h1>Akademik & Sektörel Çözüm Merkezi</h1>
         <p>Denizcilikte Stratejik Karar Verme ve İleri Metodolojik Çözümler</p>
-    </div>
-    
-    <div class="featured-book">
-        <div class="book-img">GÖRÜNMEYEN ENGELLER<br><br>Gani Mustafa İNEGÖL</div>
-        <div>
-            <h4 style="color: var(--gold); font-size: 0.8rem; letter-spacing: 2px;">YAZARIN ÖNE ÇIKAN ESERİ</h4>
-            <h3 style="font-family: 'Playfair Display'; font-size: 1.8rem; margin: 10px 0;">Görünmeyen Engeller: Gemideki Kültür Çatışmaları</h3>
-            <p style="font-size: 0.9rem; color: #555;">Çok kültürlü gemi mürettebatlarında yaşanan etkileşim süreçlerinin ve çatışma dinamiklerinin bilimsel bir yaklaşımla analiz edildiği bu çalışma, denizcilik literatürüne metodolojik bir perspektif sunmaktadır.</p>
-            <div class="book-links">
-                <a href="#" class="btn-buy"><i class="fas fa-shopping-cart"></i> Kitapyurdu</a>
-                <a href="#" class="btn-buy"><i class="fas fa-shopping-cart"></i> Amazon</a>
-                <a href="#" class="btn-buy"><i class="fas fa-shopping-cart"></i> Gece Kitaplığı</a>
+    </section>
+
+    <div class="container">
+        <div class="featured-book">
+            <div class="book-cover">GÖRÜNMEYEN ENGELLER<br><br>Gani Mustafa İNEGÖL</div>
+            <div>
+                <h4 style="color: var(--gold); font-size: 0.8rem; letter-spacing: 2px; font-weight: 700;">YAZARIN ÖNE ÇIKAN ESERİ</h4>
+                <h3 style="font-family: 'Playfair Display'; font-size: 1.8rem; margin: 10px 0; color: var(--navy);">Görünmeyen Engeller: Gemideki Kültür Çatışmaları</h3>
+                <p style="font-size: 0.95rem; color: #555; line-height: 1.7;">Çok kültürlü gemi mürettebatlarında yaşanan etkileşim süreçlerinin ve çatışma dinamiklerinin bilimsel bir yaklaşımla analiz edildiği bu çalışma, denizcilik literatürüne metodolojik bir perspektif sunmaktadır.</p>
+                <div class="book-links">
+                    <a href="https://www.kitapyurdu.com" target="_blank" class="btn-buy">Kitapyurdu</a>
+                    <a href="https://www.amazon.com.tr" target="_blank" class="btn-buy">Amazon</a>
+                    <a href="http://www.gecekitapligi.com" target="_blank" class="btn-buy">Gece Kitaplığı</a>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container" style="text-align: center; padding-top: 0;">
-        <h2 style="font-size: 1.8rem;">Stratejik Karar Destek Sistemleri</h2>
-        <p style="max-width: 800px; margin: 20px auto; line-height: 1.8;">Akademik derinlik ve saha tecrübesinin birleştiği bu platformda, denizcilik sektörünün karmaşık problemlerine matematiksel ve stratejik çözümler üretilmektedir.</p>
     </div>
 </div>
 
 <div id="about" class="page-content">
     <div class="container">
         <h2>Akademik Profil</h2>
-        <p style="line-height: 2; font-size: 1.1rem; text-align: justify;">2022 yılından bu yana <strong>Kocaeli Üniversitesi Karamürsel Denizcilik Meslek Yüksekokulu</strong> bünyesinde Öğretim Görevlisi ve Bölüm Başkan Yardımcısı olarak akademik ve idari görevler yürütülmektedir. Lisans ve yüksek lisans eğitimleri Karadeniz Teknik Üniversitesi'nde tamamlanmış olup, halihazırda <strong>İstanbul Teknik Üniversitesi (İTÜ)</strong> Deniz Ulaştırma İşletme Mühendisliği doktora programında, deniz ulaştırma lojistiği ve stratejik karar verme süreçleri üzerine odaklanan tez çalışmaları sürdürülmektedir.</p>
-        <p style="line-height: 2; font-size: 1.1rem; text-align: justify; margin-top: 25px;">Akademik araştırmalar; Çok Kriterli Karar Verme (MCDM) yöntemleri kullanılarak denizcilik lojistiği, otonom gemiler, yeşil enerji dönüşümü ve operasyonel sürdürülebilirlik problemlerinin matematiksel modellerle optimize edilmesi üzerine odaklanmıştır.</p>
+        <p style="line-height: 2.2; font-size: 1.1rem; text-align: justify;">2022 yılından bu yana <strong>Kocaeli Üniversitesi Karamürsel Denizcilik Meslek Yüksekokulu</strong> bünyesinde Öğretim Görevlisi ve Bölüm Başkan Yardımcısı olarak akademik ve idari görevler yürütülmektedir. Lisans ve yüksek lisans eğitimleri Karadeniz Teknik Üniversitesi'nde tamamlanmış olup, halihazırda <strong>İstanbul Teknik Üniversitesi (İTÜ)</strong> Deniz Ulaştırma İşletme Mühendisliği doktora programında, deniz ulaştırma lojistiği ve stratejik karar verme süreçleri üzerine odaklanan tez çalışmaları sürdürülmektedir.</p>
+        <p style="line-height: 2.2; font-size: 1.1rem; text-align: justify; margin-top: 25px;">Akademik araştırmalar; Çok Kriterli Karar Verme (MCDM) yöntemleri kullanılarak denizcilik lojistiği, otonom gemiler, yeşil enerji dönüşümü ve operasyonel sürdürülebilirlik problemlerinin matematiksel modellerle optimize edilmesi üzerine odaklanmıştır.</p>
     </div>
 </div>
 
-<div id="methodology" class="page-content">
+<div id="consulting" class="page-content">
     <div class="container">
         <h2>Akademik Metodoloji Danışmanlığı</h2>
-        <p style="margin-bottom: 30px; line-height: 1.8;">Akademik çalışmalarda metodolojik derinliği artırmak amacıyla, aşağıda yer alan tekniklerin hem deterministik hem de bulanık (fuzzy) modelleri üzerine kapsamlı analiz desteği sağlanmaktadır. <strong>Sunulan hizmetler bu yöntemler ile sınırlı olmayıp, literatürdeki diğer güncel MCDM metodolojileri için de danışmanlık verilmektedir.</strong></p>
-        
+        <p style="margin-bottom: 30px; line-height: 1.8;">Lisansüstü çalışmalar ve akademik yayın süreçlerinde metodolojik derinliği artırmak amacıyla, aşağıda yer alan tekniklerin deterministik ve bulanık (fuzzy) modelleri üzerine kapsamlı analiz desteği sağlanmaktadır:</p>
         <div class="grid">
             <div class="card">
-                <h3>Uygulanan İleri Metotlar</h3>
-                <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                    <li>AHP / Fuzzy AHP</li>
-                    <li>TOPSIS / Fuzzy TOPSIS</li>
-                    <li>SWARA / Fuzzy SWARA</li>
-                    <li>ARAS / Fuzzy ARAS</li>
-                    <li>PIPRECIA / Fuzzy PIPRECIA</li>
-                    <li>DEMATEL / Fuzzy DEMATEL</li>
-                </ul>
+                <h3>İleri MCDM Metotları</h3>
+                <p>Uygulanan başlıca yöntemler: <strong>AHP, TOPSIS, SWARA, ARAS, PIPRECIA, DEMATEL</strong> ve bu yöntemlerin <strong>Fuzzy (Bulanık)</strong> versiyonlarıdır. Danışmanlık süreci bu yöntemlerle sınırlı olmayıp, literatürdeki güncel metodolojiler araştırmanın kapsamına göre entegre edilmektedir.</p>
             </div>
             <div class="card">
-                <h3>Anket ve Raporlama Desteği</h3>
-                <p style="font-size: 0.95rem; line-height: 1.7;">Metodolojik kurgunun yanı sıra; <strong>bilimsel anket çalışmalarının tasarlanması, veri toplama stratejilerinin kurgulanması ve elde edilen bulguların Q1/Q2 dergi standartlarında akademik raporlanması</strong> süreçleri titizlikle yürütülmektedir.</p>
+                <h3>Bütünleşik Araştırma Desteği</h3>
+                <p>Metodolojik analize ek olarak; <strong>bilimsel anket formlarının tasarımı, veri toplama stratejilerinin kurgulanması, geçerlilik/güvenilirlik analizleri ve bulguların Q1/Q2 dergi standartlarında akademik raporlanması</strong> süreçleri yürütülmektedir.</p>
             </div>
         </div>
     </div>
@@ -153,9 +143,9 @@
     <div class="container">
         <h2>Sektörel Stratejik Karar Destek</h2>
         <div class="grid">
-            <div class="card"><h3>Liman & Lojistik</h3><p>Liman yeri seçimi, terminal performans analizleri ve lojistik köy optimizasyonu süreçleri bilimsel modellerle analiz edilmektedir.</p></div>
+            <div class="card"><h3>Liman & Lojistik</h3><p>Liman yeri seçimi, lojistik köy optimizasyonu ve terminal performans analizleri bilimsel karar destek modelleriyle yürütülmektedir.</p></div>
             <div class="card"><h3>Stratejik Durum Analizi</h3><p>Sektörel dinamiklere uygun niş SWOT ve TOWS analizleri ile kurumsal yol haritaları ve karar destek sistemleri kurgulanmaktadır.</p></div>
-            <div class="card"><h3>İnsan Kaynakları</h3><p>Denizci yetkinlik analizleri, personel performans değerlendirme modelleri ve insan kaynağı optimizasyonu çalışmaları yürütülmektedir.</p></div>
+            <div class="card"><h3>İnsan Kaynakları</h3><p>Denizci yetkinlik analizleri, personel performans değerlendirme modelleri ve gemi insanı kaynak optimizasyonu çalışmaları yapılmaktadır.</p></div>
         </div>
     </div>
 </div>
@@ -164,15 +154,15 @@
     <div class="container">
         <h2>Eğitim ve Bilgi Bankası</h2>
         <div class="acc-item">
-            <div class="acc-header" onclick="toggleAcc(this)">Çok Kriterli Karar Verme (MCDM) Nedir? <i class="fas fa-chevron-down"></i></div>
+            <div class="acc-header" onclick="toggleAcc(this)">Çok Kriterli Karar Verme (MCDM) Teknikleri <i class="fas fa-chevron-down"></i></div>
             <div class="acc-content">
-                <p>MCDM, birbiriyle çelişen birden fazla kriterin bulunduğu karmaşık karar problemlerinin sistematik ve matematiksel bir çerçevede değerlendirilmesi sürecidir. Geleneksel optimizasyon yöntemlerinin yetersiz kaldığı durumlarda, karar vericinin tercihlerini, kriter ağırlıklarını ve alternatif performanslarını eş zamanlı olarak analiz etme imkanı sunmaktadır. Bu süreçte SWARA, ARAS ve Bulanık AHP gibi yöntemler kullanılarak en rasyonel sonucun elde edilmesi hedeflenmektedir.</p>
+                <p>MCDM, birbiriyle çelişen birden fazla kriterin bulunduğu karmaşık karar problemlerinin matematiksel bir çerçevede değerlendirilmesi sürecidir. Geleneksel yöntemlerin yetersiz kaldığı durumlarda, karar vericinin tercihlerini ve alternatif performanslarını bilimsel modellerle analiz etme imkanı sunar. Bu sayede, subjektif yargılar şeffaf ve doğrulanabilir verilere dönüştürülmektedir.</p>
             </div>
         </div>
         <div class="acc-item">
-            <div class="acc-header" onclick="toggleAcc(this)">Deniz Taşımacılığında MCDM'nin Kilit Rolü <i class="fas fa-chevron-down"></i></div>
+            <div class="acc-header" onclick="toggleAcc(this)">Deniz Taşımacılığı ve Metodolojik Dönüşüm <i class="fas fa-chevron-down"></i></div>
             <div class="acc-content">
-                <p>Küresel ticaretin can damarı olan deniz taşımacılığı, yüksek belirsizlik ve risk içeren bir sektördür. Konteyner kıtlığı analizi, liman yeri seçimi ve otonom gemi (MASS) adaptasyonu gibi stratejik kararlarda MCDM yöntemleri; sübjektif yargıları bilimsel verilere dayalı, şeffaf ve doğrulanabilir modellere dönüştürerek operasyonel emniyeti maksimize etmektedir.</p>
+                <p>Küresel ticaretin ana ekseni olan deniz taşımacılığında; liman sahası seçimi, otonom gemi (MASS) adaptasyonu ve yeşil enerji dönüşümü gibi kritik kararların alınmasında MCDM yöntemleri stratejik bir avantaj sağlamaktadır. Bilimsel modeller, operasyonel emniyeti ve sürdürülebilirliği maksimize etmede anahtar rol oynamaktadır.</p>
             </div>
         </div>
     </div>
@@ -180,22 +170,24 @@
 
 <div id="publications" class="page-content">
     <div class="container">
-        <h2>Seçilmiş Yayınlar</h2>
-        <div class="pub-row">
-            <a href="https://scholar.google.com/scholar?q=Investigation+of+empty+container+shortage+SWARA-ARAS" target="_blank">Investigation of empty container shortage based on SWARA-ARAS methods in the COVID-19 era</a>
-            <span style="font-size: 0.8rem; color: #777;">EUROPEAN TRANSPORT RESEARCH REVIEW, 2022</span>
+        <h2>Seçilmiş Yayınlar ve Eserler</h2>
+        <div class="pub-item">
+            <a href="https://scholar.google.com" target="_blank" class="pub-title">Investigation of empty container shortage based on SWARA-ARAS methods in the COVID-19 era</a>
+            <span class="pub-meta">EUROPEAN TRANSPORT RESEARCH REVIEW, 2022 (SCI-Expanded, SSCI, Scopus)</span>
         </div>
-        <div class="pub-row">
-            <a href="https://scholar.google.com/scholar?q=SEAFARER+SELECTION+FOR+SUSTAINABLE+SHIPPING" target="_blank">SEAFARER SELECTION FOR SUSTAINABLE SHIPPING: CASE STUDY FOR TURKEY</a>
-            <span style="font-size: 0.8rem; color: #777;">INTERNATIONAL JOURNAL OF MARITIME ENGINEERING, 2023</span>
+        <div class="pub-item">
+            <a href="https://scholar.google.com" target="_blank" class="pub-title">SEAFARER SELECTION FOR SUSTAINABLE SHIPPING: CASE STUDY FOR TURKEY</a>
+            <span class="pub-meta">INTERNATIONAL JOURNAL OF MARITIME ENGINEERING, 2023 (SCI-Expanded, Scopus)</span>
         </div>
-        <div class="pub-row">
-            <a href="https://scholar.google.com/scholar?q=Analysis+of+Draught+Survey+Errors+Fuzzy+AHP" target="_blank">Analysis of Draught Survey Errors by Extended Fuzzy Analytic Hierarchy Process</a>
-            <span style="font-size: 0.8rem; color: #777;">JOURNAL OF ETA MARITIME SCIENCE, 2021</span>
+        <div class="pub-item">
+            <a href="https://scholar.google.com" target="_blank" class="pub-title">Analysis of Draught Survey Errors by Extended Fuzzy Analytic Hierarchy Process</a>
+            <span class="pub-meta">JOURNAL OF ETA MARITIME SCIENCE, 2021 (ESCI, Scopus)</span>
         </div>
-        <div class="pub-row">
-            <strong>Görünmeyen Engeller: Gemideki Kültür Çatışmaları (Kitap)</strong>
-            <span style="font-size: 0.8rem; color: #777;">Gece Kitaplığı, Ankara, 2025</span>
+        
+        <div style="text-align: center;">
+            <a href="https://avesis.kocaeli.edu.tr/gani.inegol" target="_blank" class="btn-avesis">
+                <i class="fas fa-external-link-alt"></i> TÜM YAYINLAR İÇİN AVESİS PROFİLİNİ ZİYARET EDİN
+            </a>
         </div>
     </div>
 </div>
@@ -203,10 +195,10 @@
 <div id="contact" class="page-content">
     <div class="container" style="text-align: center;">
         <h2>İletişim</h2>
-        <div class="card" style="max-width: 500px; margin: 0 auto; border-top: 5px solid var(--gold);">
-            <p style="margin-bottom: 10px;"><i class="fas fa-envelope"></i> gani.inegol@kocaeli.edu.tr</p>
-            <p style="margin-bottom: 20px;"><i class="fas fa-id-card"></i> ORCID: 0000-0002-8333-7340</p>
-            <button class="btn-gold" onclick="window.location.href='mailto:gani.inegol@kocaeli.edu.tr'">Mesaj Gönder</button>
+        <div class="card" style="max-width: 500px; margin: 0 auto; border-top: 6px solid var(--gold);">
+            <p style="margin-bottom: 10px; font-weight: 600;"><i class="fas fa-envelope"></i> gani.inegol@kocaeli.edu.tr</p>
+            <p style="margin-bottom: 20px;"><i class="fas fa-university"></i> Kocaeli Üniversitesi Karamürsel Denizcilik MYO</p>
+            <a href="mailto:gani.inegol@kocaeli.edu.tr" class="btn-avesis" style="margin-top: 0; padding: 12px 25px;">E-POSTA GÖNDER</a>
         </div>
     </div>
 </div>
@@ -217,9 +209,19 @@
 
 <script>
     function showPage(pageId) {
-        document.querySelectorAll('.page-content').forEach(p => p.classList.remove('active'));
-        const target = document.getElementById(pageId);
-        target.classList.add('active');
+        const homePage = document.getElementById('home-page');
+        const pages = document.querySelectorAll('.page-content');
+        
+        // Önce her şeyi gizle
+        homePage.style.display = 'none';
+        pages.forEach(p => p.classList.remove('active'));
+
+        if (pageId === 'home') {
+            homePage.style.display = 'block';
+        } else {
+            const target = document.getElementById(pageId);
+            if (target) target.classList.add('active');
+        }
         window.scrollTo(0, 0);
     }
 
