@@ -9,36 +9,41 @@ bg_image: "https://images.unsplash.com/photo-1517210122415-b0c70b2a09bf?q=80&w=2
 
 Denizcilik işletmelerinin operasyonel verimliliğini artırmak ve hukuki süreçlerini teknik verilerle güçlendirmek amacıyla kapsamlı stratejik çözümler sunulmaktadır. Akademik araştırmalardan elde edilen yüksek hassasiyetli veriler, sektörel karar destek mekanizmalarına ve adli inceleme raporlarına dönüştürülmektedir.
 
-### 1. Teknik Bilirkişilik ve Adli Destek Hizmetleri
+<div class="service-grid">
+    <div class="service-card">
+        <i class="fas fa-gavel"></i>
+        <h4>1. Teknik Bilirkişilik ve Adli Destek</h4>
+        <p>Denizcilik sektöründeki hukuki ihtilafların aydınlatılması amacıyla profesyonel bilirkişilik faaliyetleri yürütülmektedir:</p>
+        <ul style="padding-left: 20px; margin-top: 10px; font-size: 0.9rem;">
+            <li><b>Kaza ve Çatma Analizi:</b> Kök nedenler ve COLREG ihlalleri teknik verilerle raporlanmaktadır.</li>
+            <li><b>MARPOL İncelemeleri:</b> Deniz kirliliği vakaları uluslararası standartlarda analiz edilmektedir.</li>
+            <li><b>Deniz İş Kanunu:</b> Gemi insanı hakları ve emniyet ihlallerine yönelik uzman görüşü sunulmaktadır.</li>
+        </ul>
+    </div>
 
-Denizcilik sektöründeki hukuki ihtilafların aydınlatılması amacıyla profesyonel bilirkişilik faaliyetleri yürütülmektedir:
-* **Kaza ve Çatma Analizi:** Deniz kazalarının kök nedenleri, COLREG ihlalleri ve kusur oranları teknik veriler ışığında raporlanmaktadır.
-* **MARPOL ve Çevre İncelemeleri:** Deniz kirliliği vakaları uluslararası standartlar çerçevesinde analiz edilmektedir.
-* **Deniz İş Kanunu Teknik Görüşü:** Gemi insanı hakları ve operasyonel emniyet ihlallerine yönelik uzman görüşü sunulmaktadır.
+    <div class="service-card">
+        <i class="fas fa-chart-line"></i>
+        <h4>2. Stratejik Analiz ve Programlar</h4>
+        <p>Akademik modeller, işletmelerin kullanımına hazır stratejik araçlar olarak sunulmaktadır:</p>
+        <ul style="padding-left: 20px; margin-top: 10px; font-size: 0.9rem;">
+            <li><b>Çatışma Teşhis Raporu:</b> Çok uluslu mürettebat için işletmeye özel "Çatışma Risk Haritası" oluşturulmaktadır.</li>
+            <li><b>MCDM-Selection Sistemi:</b> 24 farklı kriter ve ileri algoritmalarla (SWARA-ARAS) hata payı sıfıra indirilmiş personel seçimi sağlanmaktadır.</li>
+        </ul>
+    </div>
+</div>
 
-### 2. Stratejik Analiz ve Programmatik Çözümler
 
-Akademik literatüre kazandırılan metodolojik modeller, işletmelerin kullanımına hazır stratejik araçlar olarak sunulmaktadır:
 
-#### A. Çok Kültürlü Gemi Yönetimi ve Çatışma Teşhis Raporu
-Çok uluslu mürettebat yapısına sahip işletmeler için kültürel risk analizleri gerçekleştirilmektedir. Yapılan bilimsel çalışmalar sonucunda:
-* Gemilerdeki çatışma faktörleri hiyerarşik olarak belirlenmekte ve işletmeye özel **"Çatışma Risk Haritası"** oluşturulmaktadır.
-* Eğitim ve rehberlik süreçleri en etkili çözüm yolu olarak raporlanmakta; personel uyumunu artıracak stratejik yol haritaları sunulmaktadır.
-
-#### B. Akıllı Personel Seçim ve Karar Destek Sistemi (MCDM-Selection)
-Personel seçim süreçlerinde hata payını ortadan kaldıran, SWARA ve ARAS yöntemlerine dayalı bilimsel bir değerlendirme programı uygulanmaktadır:
-* **24 Farklı Kriterle Analiz:** Kişisel, profesyonel, fiziksel ve teknik yetkinlikler üzerinden adaylar matematiksel olarak puanlanmaktadır.
-* **Gemi Tipine Özel Optimizasyon:** Dökme yük, konteyner veya tanker gemileri için farklı ağırlıklandırma modelleri kullanılarak en uygun aday saniyeler içinde belirlenmektedir.
-
-### 3. Denizcilik Eğitimi ve Teknik Eğitim Modülleri
-
-Eğitim kurumları ve işletmelerin eğitim departmanları için uluslararası (STCW) standartlara uyumlu, teknoloji tabanlı eğitim çözümleri kurgulanmaktadır. Deniz emniyetini artırmak amacıyla simülasyon odaklı öğrenme araçları geliştirilmektedir:
-
-#### ARPA Radar Simülasyonu ve Teknik Eğitim Modülü
-Eğitim amaçlı kullanım için geliştirme aşamasında olan ileri düzey **ARPA Radar Eğitim Modülü** ile navigasyon emniyeti dersleri interaktif bir zemine taşınmaktadır:
-* **Eğitim Odaklı Simülasyon:** Gemi insanı adaylarının ve aktif zabitlerin, ARPA Radar sistemlerini gerçeğe yakın bir simülasyon ortamında tecrübe etmeleri sağlanmaktadır.
-* **Pedagojik Teknik Altyapı:** Teknik beceri ölçümüne olanak tanıyan, öğrenci performansının takip edilebildiği ve değerlendirme kriterlerinin standardize edildiği bir eğitim müfredatı kurgulanmaktadır.
-* **Seyir Emniyeti Yetkinliği:** Radarın etkin kullanımı, hedef takibi ve çatışmayı önleme manevraları üzerine özelleştirilmiş eğitim senaryoları ile teknik yetkinliğin en üst seviyeye çıkarılması hedeflenmektedir.
+<div class="feature-box">
+    <h3 style="color: var(--gold); margin-bottom: 20px; font-family: 'Playfair Display', serif;">3. Denizcilik Eğitimi ve Teknik Eğitim Modülleri</h3>
+    <p>Eğitim kurumları ve işletmelerin eğitim departmanları için STCW standartlarına uyumlu, teknoloji tabanlı çözümler kurgulanmaktadır.</p>
+    
+    <div style="margin-top: 25px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+        <h4 style="color: white; margin-bottom: 10px;">ARPA Radar Simülasyonu ve Teknik Eğitim Modülü</h4>
+        <p style="color: rgba(255,255,255,0.8); font-size: 0.95rem;">Eğitim amaçlı geliştirilen bu modül ile navigasyon emniyeti dersleri interaktif bir zemine taşınmaktadır. Gemi insanı adaylarının ARPA sistemlerini gerçeğe yakın simülasyon ortamında tecrübe etmeleri sağlanırken; performans takibi ve ölçülebilir müfredat ile teknik yetkinliğin en üst seviyeye çıkarılması hedeflenmektedir.</p>
+    </div>
+</div>
 
 ### Raporlama ve Danışmanlık Süreci
+
 İşletmelerden gelen veriler, ileri algoritmalar ile işlenmekte ve yönetim kurullarına sunulmak üzere **"Yönetici Özet Raporu"** formatında teslim edilmektedir. Karar verme süreçlerinde subjektif yargıların yerini rasyonel ve bilimsel verilerin alması sağlanmaktadır.
