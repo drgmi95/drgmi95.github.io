@@ -3,13 +3,13 @@ layout: default
 title: Ana Sayfa
 ---
 
-# Denizcilikte Stratejik Karar <br> Modelleri <span class="amp">ve</span> İleri Analizler
+# Denizcilikte Stratejik Karar <br> Modelleri <span class="amp-white">ve</span> İleri Analizler
 
-<p class="slogan">Bilimin Keskinliği <span class="amp">ve</span> Denizin Bilgeliği ile <br> Karar Verme Süreçlerinde Metodolojik Dönüşüm</p>
+<p class="slogan">Bilimin Keskinliği <span class="amp-gold">ve</span> Denizin Bilgeliği ile <br> Karar Verme Süreçlerinde Metodolojik Dönüşüm</p>
 
 <div class="cta-group">
-    <a href="/bilirkisilik" class="btn-cta btn-gold-fill">Sektörel Çözümleri İnceleyin</a>
-    <a href="/metodoloji" class="btn-cta btn-white-outline">Akademik Metodoloji</a>
+    <a href="/bilirkisilik" class="btn-cta">Sektörel Çözümleri İnceleyin</a>
+    <a href="/metodoloji" class="btn-cta">Akademik Metodoloji</a>
 </div>
 
 <div style="max-width: 800px; margin: 0 auto; font-size: 1.1rem; line-height: 1.8; color: rgba(255,255,255,0.95); text-align: center;">
