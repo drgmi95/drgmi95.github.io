@@ -26,8 +26,8 @@ Denizcilik işletmelerinin operasyonel verimliliğini artırmak ve hukuki süre�
         <h4>2. Stratejik Analiz ve Programlar</h4>
         <p>Akademik modeller, işletmelerin kullanımına hazır stratejik araçlar olarak sunulmaktadır:</p>
         <ul style="padding-left: 20px; margin-top: 10px; font-size: 0.9rem;">
-            <li><b>Çatışma Teşhis Raporu:</b> Çok uluslu mürettebat için işletmeye özel "Çatışma Risk Haritası" oluşturulmaktadır.</li>
-            <li><b>MCDM-Selection Sistemi:</b> 24 farklı kriter ve ileri algoritmalarla (SWARA-ARAS) hata payı sıfıra indirilmiş personel seçimi sağlanmaktadır.</li>
+            <li><b>Kültürel Çatışma Teşhis Raporu:</b> Çok uluslu mürettebat için işletmeye özel "Çatışma Risk Haritası" oluşturulmaktadır.</li>
+            <li><b>MCDM-Selection System:</b> 24 farklı kriter ve ileri algoritmalarla  hata payı minimum düzeye indirilmiş personel seçimi sağlanmaktadır.</li>
         </ul>
     </div>
 </div>
