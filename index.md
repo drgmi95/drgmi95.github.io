@@ -5,7 +5,7 @@ title: Ana Sayfa
 
 # Denizcilikte Stratejik Karar <br> Modelleri <span class="amp-white">ve</span> İleri Analizler
 
-<p class="slogan">Bilimin Keskinliği <span class="amp-gold">ve</span> Bilimin Analitik Gücü ve Denizin Bilgeliği ile <br> Karar Destek Sistemleri</p>
+<p class="slogan">Bilimin Analitik Gücü <span class="amp-gold">ve</span> Denizin Bilgeliği ile <br> Karar Destek Sistemleri</p>
 
 <div class="cta-group">
     <a href="/bilirkisilik" class="btn-cta">Sektörel Çözümleri İnceleyin</a>
