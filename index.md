@@ -9,7 +9,7 @@ title: Ana Sayfa
 
 <div class="cta-group">
     <a href="/bilirkisilik" class="btn-cta">Sektörel Çözümleri İnceleyin</a>
-    <a href="/metodoloji" class="btn-cta">Akademik Metodoloji</a>
+    <a href="/metodoloji" class="btn-cta">Akademik Danışmanlık</a>
 </div>
 
 <div style="max-width: 800px; margin: 0 auto; font-size: 1.1rem; line-height: 1.8; color: rgba(255,255,255,0.95); text-align: center;">
