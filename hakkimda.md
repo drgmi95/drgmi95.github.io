@@ -11,15 +11,15 @@ Denizcilik sektörü; mühendislik, yönetim ve lojistik disiplinlerinin iç iç
 
 ### Akademik Altyapı ve Eğitim Süreci
 
-2022 yılından bu yana **Kocaeli Üniversitesi Karamürsel Denizcilik Meslek Yüksekokulu** bünyesinde Öğretim Görevlisi ve Bölüm Başkan Yardımcısı olarak akademik sorumluluklar yürütülmektedir. Akademik birikimin temelini oluşturan Karadeniz Teknik Üniversitesi'ndeki lisans ve yüksek lisans eğitimlerinin ardından, halihazırda **İstanbul Teknik Üniversitesi (İTÜ)** Deniz Ulaştırma İşletme Mühendisliği doktora programında tez çalışmaları sürdürülmektedir.
+2022 yılından bu yana Kocaeli Üniversitesi Karamürsel Denizcilik Meslek Yüksekokulu bünyesinde Öğretim Görevlisi ve Bölüm Başkan Yardımcısı olarak akademik sorumluluklar yürütülmektedir. Akademik birikimin temelini oluşturan Karadeniz Teknik Üniversitesi'ndeki lisans ve yüksek lisans eğitimlerinin ardından, halihazırda İstanbul Teknik Üniversitesi Deniz Ulaştırma İşletme Mühendisliği doktora programında tez çalışmaları sürdürülmektedir.
 
 ### Yetkinlik Alanları ve Araştırma Odağı
 
 Mühendislik temelli analitik düşünce yapısı ile yönetim bilimlerinin stratejik bakış açısı, yürütülen çalışmalarda birleştirilmektedir. Bu kapsamda odaklanılan temel yetkinlikler şunlardır:
 
-* **Stratejik Karar Verme:** Çok Kriterli Karar Verme (MCDM) metodolojilerinin (SWARA, ARAS, AHP vb.) karmaşık sektör problemlerine uygulanması.
-* **İnsan Kaynakları ve Eğitim Teknolojileri:** Personel seçim süreçlerinde 24 farklı kriter üzerinden yapılan matematiksel puanlamalar ve denizcilik eğitim modülleri üzerine çalışmalar yürütülmektedir.
-* **Operasyonel Analiz:** Çok kültürlü gemi yönetimindeki çatışma dinamikleri, liman lojistiği ve sürdürülebilir denizcilik stratejileri üzerine derinlemesine analizler gerçekleştirilmektedir.
+* **Stratejik Karar Verme:**İleri Karar Verme metodolojileri kullanarak geliştirilen karar verme modelleri karmaşık sektör problemlerine uygulanması.
+* **İnsan Kaynakları ve Eğitim Teknolojileri:** Sürdürebilir insan kaynakalrı yönetimi ve denizcilik eğitim modülleri üzerine çalışmalar yürütülmektedir.
+* **Operasyonel Analiz:** Gemi yönetimi, liman lojistiği ve sürdürülebilir denizcilik stratejileri üzerine derinlemesine analizler gerçekleştirilmektedir.
 
 * **Metodolojik Kurgu ve Teknik Destek:** Araştırma probleminin doğasına uygun analiz yöntemlerinin belirlenmesi ve teorik çerçevelerinin akademik standartlarda açıklanması sağlanmaktadır.
 * **Veri Toplama ve Anket Tasarımı:** Bilimsel geçerliliği yüksek anket formlarının tasarlanması, geçerlilik-güvenilirlik analizlerinin kurgulanması ve uzman görüşlerinin toplanması süreçleri profesyonel bir titizlikle yönetilmektedir.
