@@ -3,7 +3,7 @@ layout: default
 title: Ana Sayfa
 ---
 
-# Denizcilikte Stratejik Karar <br> Modelleri <span class="amp">&</span> İleri Analizler
+# Denizcilikte Stratejik Karar <br> Modelleri <span class="amp">ve</span> İleri Analizler
 
 <p class="slogan">Bilimin Keskinliği <span class="amp">&</span> Denizin Bilgeliği ile <br> Karar Verme Süreçlerinde Metodolojik Dönüşüm</p>
 
