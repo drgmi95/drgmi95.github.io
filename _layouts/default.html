@@ -12,8 +12,10 @@
 
         body { font-family: 'Poppins', sans-serif !important; background-color: #f4f7f6; }
         
-        /* "ve" ifadesi için tipografik düzenleme - Renk üst metinden miras alınır */
-        .amp { font-family: 'Playfair Display', serif; font-weight: 500; color: inherit; }
+        /* Başlıktaki beyaz "ve" için miras rengi */
+        .amp-white { font-family: 'Playfair Display', serif; font-weight: 500; color: inherit; }
+        /* Slogandaki gold "ve" için özel renk */
+        .amp-gold { font-family: 'Playfair Display', serif; font-weight: 500; color: var(--gold); }
 
         nav { background: var(--navy); height: 80px; position: fixed; width: 100%; top: 0; z-index: 2000; border-bottom: 3px solid var(--gold); display: flex; align-items: center; }
         .nav-container { max-width: 1200px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 0 30px; }
@@ -27,11 +29,23 @@
         .hero h1 { font-family: 'Playfair Display', serif !important; font-size: 4rem !important; line-height: 1.1; margin-bottom: 25px; font-weight: 700; }
         .hero .slogan { font-size: 1.6rem !important; color: var(--gold) !important; font-style: italic; margin-bottom: 40px; font-weight: 500; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); }
 
+        /* Butonlar - Her ikisi de Altın Rengi ve Aynı Boyut */
         .cta-group { display: flex; gap: 20px; justify-content: center; margin-bottom: 50px; }
-        .btn-cta { padding: 14px 28px; text-decoration: none; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; border-radius: 2px; }
-        .btn-gold-fill { background: var(--gold); color: var(--navy) !important; border: 2px solid var(--gold); }
-        .btn-white-outline { background: transparent; color: white !important; border: 2px solid white; }
-        .btn-cta:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.3); opacity: 0.9; }
+        .btn-cta { 
+            padding: 14px 28px; 
+            text-decoration: none; 
+            font-weight: 700; 
+            font-size: 13px; 
+            text-transform: uppercase; 
+            letter-spacing: 1px; 
+            transition: 0.3s; 
+            border-radius: 2px; 
+            background: var(--gold); 
+            color: var(--navy) !important; 
+            border: 2px solid var(--gold);
+            min-width: 250px; /* Buton genişlikleri eşitlendi */
+        }
+        .btn-cta:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.3); opacity: 0.95; }
 
         .feature-grid { display: flex; justify-content: center; gap: 40px; margin-top: 30px; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 40px; }
         .feature-item { text-align: center; max-width: 180px; }
