@@ -22,7 +22,7 @@ Mühendislik temelli analitik düşünce yapısı ile yönetim bilimlerinin stra
 * **Operasyonel Analiz:** Gemi yönetimi, liman lojistiği ve sürdürülebilir denizcilik stratejileri üzerine derinlemesine analizler gerçekleştirilmektedir.
 
 * **Metodolojik Kurgu ve Teknik Destek:** Araştırma probleminin doğasına uygun analiz yöntemlerinin belirlenmesi ve teorik çerçevelerinin akademik standartlarda açıklanması sağlanmaktadır.
-* **Veri Toplama ve Anket Tasarımı:** Bilimsel geçerliliği yüksek anket formlarının tasarlanması, geçerlilik-güvenilirlik analizlerinin kurgulanması ve uzman görüşlerinin toplanması süreçleri profesyonel bir titizlikle yönetilmektedir.
+* **Veri Analizi ve Anket Tasarımı:** Bilimsel geçerliliği yüksek anket formlarının tasarlanması, geçerlilik-güvenilirlik analizlerinin kurgulanması ve uzman görüşlerinin analizi ve yorumlanması süreçleri profesyonel bir titizlikle yönetilmektedir.
 * **Model Tasarımı ve Uygulama:** Araştırma kriterlerinin hiyerarşik olarak yapılandırılması, matematiksel modellerin kurgulanması ve analiz sonuçlarının uluslararası literatür standartlarında raporlanması konusunda destek sunulmaktadır.
 
 
