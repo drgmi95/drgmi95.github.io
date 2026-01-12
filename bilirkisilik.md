@@ -26,8 +26,9 @@ Denizcilik işletmelerinin operasyonel verimliliğini artırmak ve hukuki süre�
         <h4>2. Stratejik Analiz ve Programlar</h4>
         <p>Akademik modeller, işletmelerin kullanımına hazır stratejik araçlar olarak sunulmaktadır:</p>
         <ul style="padding-left: 20px; margin-top: 10px; font-size: 0.9rem;">
-            <li><b>Kültürel Çatışma Teşhis Raporu:</b> Çok uluslu mürettebat için işletmeye özel "Çatışma Risk Haritası" oluşturulmaktadır.</li>
-            <li><b>MCDM-Selection System:</b> 24 farklı kriter ve ileri algoritmalarla  hata payı minimum düzeye indirilmiş personel seçimi sağlanmaktadır.</li>
+            <li><b>Kültürel Çatışma Teşhis ve Risk Haritalama:</b> Çok uluslu mürettebat yapısına sahip işletmeler için kültürel ve operasyonel dinamikler analiz edilerek, kuruma özel "Çatışma Risk Haritaları" oluşturulmaktadır.</li>
+            <li><b>Sürdürülebilir İnsan Kaynakları ve Stratejik Yetenek Yönetimi:</b> Akademik literatürün teorik temelleri ile denizcilik sahasındaki pratik gereksinimlerden süzülen yetkinliklere dayalı, ileri düzey karar destek modelleri sunulmaktadır. Gemi insanı ve şirket çalışanı seçim süreçlerinde; subjektif yargılardan arındırılmış, ileri metodolojik yaklaşımlarla oluşturulan bilimsel bir değerlendirme altyapısı sağlanmaktadır. Bu modeller aracılığıyla, personel yerleştirme süreçlerinde hata payının minimize edilmesi ve sürdürülebilir, verimli bir yönetim yapısının tesisi hedeflenmektedir..</li>
+              <li><b>Operasyonel Optimizasyon Raporlaması:</b> Mevcut iş süreçleri, karar destek mekanizmalarıyla analiz edilerek, kaynak kullanımında verimlilik artışı sağlayacak metodolojik çözüm önerileri raporlanmaktadır.</li>
         </ul>
     </div>
 </div>
