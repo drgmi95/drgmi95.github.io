@@ -1,30 +1,67 @@
 ---
 layout: default
-title: Metodoloji
+title: Akademik Danışmanlık
 permalink: /metodoloji/
-bg_image: "[[https://images.unsplash.com/photo-1454165833767-027508492021?q=80&w=2000](https://image.slidesharecdn.com/methodology-200212141942/75/Methodology-1-2048.jpg)](https://image.slidesharecdn.com/methodology-200212141942/75/Methodology-1-2048.jpg)"
+bg_image: "https://images.unsplash.com/photo-1454165833767-027508492021?q=80&w=2000"
 ---
 
-## Metodolojik Analiz ve Disiplinlerarası Karar Destek Danışmanlığı
+## Metodolojik Analiz ve Akademik Danışmanlık
 
 Bilimsel araştırmalarda karar verme mekanizmalarının rasyonel bir temele oturtulması, çalışmanın akademik niteliğini belirleyen temel unsurdur. Çok Kriterli Karar Verme (MCDM) metodolojileri, sadece belirli bir sektöre özgü olmayıp, karmaşık karar problemlerinin bulunduğu tüm bilim dallarında evrensel bir çözüm dili olarak kabul görmektedir. Bu kapsamda; mühendislik, işletme, sağlık bilimleri, finans ve sosyal bilimler dahil olmak üzere tüm akademik disiplinlerde yürütülen araştırmalara yönelik ileri düzey metodolojik danışmanlık hizmetleri sağlanmaktadır.
 
-### Evrensel Karar Verme Metodolojileri ve Analitik Yaklaşımlar
+<div style="margin-top: 40px;">
+    <h3 style="color: var(--navy); border-bottom: 2px solid var(--gold); display: inline-block; padding-bottom: 5px;">
+        <i class="fas fa-microchip"></i> Evrensel Metodolojiler ve Analitik Yaklaşımlar
+    </h3>
+</div>
 
-Araştırma konusunun kapsamı ne olursa olsun, kriterlerin ağırlıklandırılması ve alternatiflerin sıralanması süreçlerinde matematiksel kesinlik içeren modeller kurgulanmaktadır. Analiz süreçlerinde, literatürde yüksek etki değerine sahip şu yöntemlerin deterministik ve bulanık (fuzzy) formları uygulanmaktadır:
+<div class="service-grid">
+    <div class="service-card">
+        <i class="fas fa-layer-group"></i>
+        <h4>Stratejik Ağırlıklandırma</h4>
+        <p>Çok kriterli karar verme yöntemleri kullanılarak oluşturulan modeller ile çok boyutlu problem çözümleri yürütülmektedir.</p>
+    </div>
+    <div class="service-card">
+        <i class="fas fa-adjust"></i>
+        <h4>Belirsizlik Yönetimi</h4>
+        <p>Verilerin net olmadığı veya subjektif yargıların baskın olduğu çalışma alanları için Fuzzy  temelli modeller analizlere entegre edilmektedir.</p>
+    </div>
+    <div class="service-card">
+        <i class="fas fa-project-diagram"></i>
+        <h4>Disiplinlerarası Uygulama</h4>
+        <p>Endüstriyel yer seçimi, performans ölçümü, risk analizleri ve lojistik optimizasyonu gibi alanlara özgü metodolojik çözümler kurgulanmaktadır.</p>
+    </div>
+</div>
 
-* **Stratejik Ağırlıklandırma ve Sıralama:** PIPRECIA ve DEMATEL başta olmak üzere; SWARA, AHP, TOPSIS ve ARAS gibi yöntemler kullanılarak çok boyutlu problem çözümleri yürütülmektedir.
-* **Belirsizlik Altında Karar Verme:** Verilerin net olmadığı veya subjektif yargıların baskın olduğu çalışma alanları için Fuzzy (Bulanık) mantık temelli modeller (Fuzzy AHP, Fuzzy PIPRECIA vb.) analizlere entegre edilmektedir.
-* **Disiplinlerarası Uygulama Alanları:** Sunulan metodolojik altyapı; endüstriyel tesis yer seçimi, sağlık yönetiminde performans ölçümü, finansal risk analizleri, kamu politikalarının değerlendirilmesi ve lojistik optimizasyonu gibi birbirinden farklı pek çok alana başarıyla uyarlanmaktadır.
+<div style="margin-top: 50px;">
+    <h3 style="color: var(--navy); border-bottom: 2px solid var(--gold); display: inline-block; padding-bottom: 5px;">
+        <i class="fas fa-vial"></i> Araştırma Tasarımı ve Yayın Koordinasyonu
+    </h3>
+</div>
 
-### Bilimsel Araştırma Tasarımı ve Yayın Standartları Koordinasyonu
+<div class="service-grid">
+    <div class="service-card" style="border-top-color: var(--navy);">
+        <i class="fas fa-drafting-pencil" style="color: var(--gold);"></i>
+        <h4>Araştırma Kurgusu</h4>
+        <p>İnceleme konusuna ve veri yapısına en uygun bilimsel yöntemin belirlenmesi ve metodolojik hiyerarşinin kurulması sağlanmaktadır.</p>
+    </div>
+    <div class="service-card" style="border-top-color: var(--navy);">
+        <i class="fas fa-chart-pie" style="color: var(--gold);"></i>
+        <h4>Veri Analizi ve Ölçek</h4>
+        <p>Akademik standartlara uygun anket tasarımı, uzman görüşlerinin analizi ve verinin bilimsel raporlara dönüştürülmesi süreçleri yönetilmektedir.</p>
+    </div>
+    <div class="service-card" style="border-top-color: var(--navy);">
+        <i class="fas fa-file-contract" style="color: var(--gold);"></i>
+        <h4>Q1/Q2 Raporlama</h4>
+        <p>Analiz bulguları; görselleştirilmiş tablolar ve teknik yorumlarla birlikte, uluslararası yüksek nitelikli dergi formatlarında raporlanmaktadır.</p>
+    </div>
+</div>
 
-Metodolojik danışmanlık süreci, bir araştırmanın fikri aşamasından prestijli endekslerde (SCI-Expanded, SSCI, Scopus) yayımlanmasına kadar olan tüm aşamaları kapsamaktadır:
-
-* **Araştırma Kurgusu:** İnceleme konusuna ve veri yapısına en uygun bilimsel yöntemin belirlenmesi sağlanmaktadır.
-* **Veri Toplama ve Ölçek Geliştirme:** Akademik standartlara uygun anket tasarımı, uzman görüşlerinin toplanması ve verinin analiz edilebilir hale getirilmesi süreçleri yönetilmektedir.
-* **Q1 ve Q2 Raporlama Standartları:** Analiz bulguları; görselleştirilmiş tablolar, grafikler ve akademik yazım kurallarına uygun teknik yorumlarla birlikte, uluslararası yüksek nitelikli dergi formatlarında raporlanmaktadır.
-
-### Sonuç Odaklı Metodolojik Çözümler
-
-Karmaşık veri setlerinin anlamlı stratejik çıktılara dönüştürülmesi hedeflenmektedir. Her çalışma için özelleştirilmiş analiz rotaları belirlenmekte ve araştırmaların bilimsel derinliğinin uluslararası literatür standartlarına ulaştırılması esas alınmaktadır.
+<div class="feature-box">
+    <h3 style="color: var(--gold); margin-bottom: 20px; font-family: 'Playfair Display', serif;">
+        <i class="fas fa-bullseye"></i> Sonuç Odaklı Metodolojik Çözümler
+    </h3>
+    <p style="font-size: 1.1rem; line-height: 1.8;">
+        Karmaşık veri setlerinin anlamlı stratejik çıktılara dönüştürülmesi hedeflenmektedir. Her çalışma için özelleştirilmiş analiz rotaları belirlenmekte ve araştırmaların bilimsel derinliğinin uluslararası literatür standartlarına ulaştırılması esas alınmaktadır.
+    </p>
+</div>
